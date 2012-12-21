@@ -86,7 +86,15 @@ NSString* C_TEXT::copyPath()
 	
 	return path;
 
-}		
+}	
+
+void C_TEXT::convertPath()
+{
+	NSString *posixPath = this->copyPath();
+	this->setUTF16String(posixPath);
+	[posixPath release];
+}
+
 NSURL *C_TEXT::copyUrl()
 {
 	NSURL *u = NULL;

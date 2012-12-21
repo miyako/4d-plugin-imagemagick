@@ -145,6 +145,10 @@ void IM_Open_File(sLONG_PTR *pResult, PackagePtr pParams)
 	Param1.fromParamAtIndex(pParams, 1);
 	Param2.fromParamAtIndex(pParams, 2);
 	
+#if VERSIONMAC
+	Param2.convertPath();
+#endif	
+	
 	IMImage2 *newImage = _objectGet(Param1.getIntValue());
 	
 	if(newImage)
@@ -165,6 +169,10 @@ void IM_Save_File(sLONG_PTR *pResult, PackagePtr pParams)
 	
 	Param1.fromParamAtIndex(pParams, 1);
 	Param2.fromParamAtIndex(pParams, 2);
+	
+#if VERSIONMAC
+	Param2.convertPath();
+#endif	
 	
 	IMImage2 *newImage = _objectGet(Param1.getIntValue());
 	

@@ -44,6 +44,7 @@ extern "C" {
 		NSMutableString* copyUTF16MutableString();
 		NSString* copyUTF16String();
 		NSString* copyPath();		
+		void convertPath();
 		void setPath(NSString* path);		
 		NSURL *copyUrl();
 #endif

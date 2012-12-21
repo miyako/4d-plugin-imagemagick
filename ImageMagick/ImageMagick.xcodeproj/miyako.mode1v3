@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>D107D25216847562009B21AF</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>IMImage2.cpp</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>D107D25316847562009B21AF</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>IMImage2.cpp</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>D107D25416847562009B21AF</string>
+						<key>history</key>
+						<array>
+							<string>D107D2491684746F009B21AF</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {736, 720}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>561 117 736 761 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -303,7 +344,7 @@
 							<real>266</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>350 201 848 671 0 0 1440 878 </string>
+						<string>175 207 848 671 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +372,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D107D24216846AC4009B21AF</string>
+										<string>D107D24F16847562009B21AF</string>
 										<key>history</key>
 										<array>
 											<string>D14988F01683F06600278DF5</string>
@@ -342,9 +383,8 @@
 											<string>D1F9825016844423000FEAA8</string>
 											<string>D1F9825116844423000FEAA8</string>
 											<string>D1F982691684447F000FEAA8</string>
-											<string>D1AB6E6C16846094008584E3</string>
-											<string>D1AB6E7F16846419008584E3</string>
-											<string>D1AB6E8A1684665A008584E3</string>
+											<string>D107D24D16847562009B21AF</string>
+											<string>D107D24E16847562009B21AF</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -356,14 +396,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {575, 588}}</string>
+								<string>{{0, 0}, {575, 587}}</string>
 								<key>RubberWindowFrame</key>
-								<string>350 201 848 671 0 0 1440 878 </string>
+								<string>175 207 848 671 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>588pt</string>
+							<string>587pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -376,14 +416,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 593}, {575, 37}}</string>
+								<string>{{0, 592}, {575, 38}}</string>
 								<key>RubberWindowFrame</key>
-								<string>350 201 848 671 0 0 1440 878 </string>
+								<string>175 207 848 671 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>37pt</string>
+							<string>38pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -402,9 +442,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D107D23516846AB3009B21AF</string>
+				<string>D107D25016847562009B21AF</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D107D23616846AB3009B21AF</string>
+				<string>D107D25116847562009B21AF</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -542,15 +582,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D107D24016846AB3009B21AF</string>
-		<string>D107D24116846AB3009B21AF</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
+		<string>D107D25616847562009B21AF</string>
+		<string>D107D25716847562009B21AF</string>
 		<string>D10A4B2716839DFF00CC9ADE</string>
-		<string>/Users/miyako/Desktop/IM/ImageMagick.xcodeproj</string>
+		<string>D107D25216847562009B21AF</string>
+		<string>/Users/miyako/github-miyako/4d-plugin-imagemagick/ImageMagick/ImageMagick.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>350 201 848 671 0 0 1440 878 </string>
+	<string>175 207 848 671 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -627,7 +666,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D10A4B2716839DFF00CC9ADE</string>
-				<string>D107D23716846AB3009B21AF</string>
+				<string>D107D25516847562009B21AF</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
