@@ -24,7 +24,7 @@ class IMImage2
 {
 	private:
 	
-	Image::Image _image;
+	Magick::Image _image;
 	
 	C_TEXT _lastError;
 	bool _initialized;

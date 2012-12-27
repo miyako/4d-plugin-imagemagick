@@ -48,7 +48,7 @@ int IMImage2::create(int x, int y, C_TEXT &color)
 	try { 
 			CUTF8String u;
 			color.copyUTF8String(&u);
-			Image::Image newimage(Magick::Geometry(x, y), Magick::Color((const char *)u.c_str()));
+			Magick::Image newimage(Magick::Geometry(x, y), Magick::Color((const char *)u.c_str()));
 			_image = newimage;
 			_initialized = true;
 			return 0;

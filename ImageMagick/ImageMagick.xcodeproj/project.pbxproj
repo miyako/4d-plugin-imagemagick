@@ -18,6 +18,11 @@
 		8D01CCC80486CAD60068D4B7 /* 4D Plugin_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B30371A71500C91783 /* 4D Plugin_Prefix.pch */; };
 		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		D102AA5C168750C100B9BA13 /* libfreetype.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D102AA5B168750C100B9BA13 /* libfreetype.2.4.11.dylib */; };
+		D102AA5F168750CE00B9BA13 /* liblcms2.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D102AA5E168750CE00B9BA13 /* liblcms2.2.4.dylib */; };
+		D102AA62168750DB00B9BA13 /* libwmf.0.2.7.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D102AA60168750DB00B9BA13 /* libwmf.0.2.7.1.dylib */; };
+		D102AA63168750DB00B9BA13 /* libwmflite.0.2.7.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D102AA61168750DB00B9BA13 /* libwmflite.0.2.7.1.dylib */; };
+		D102AA7F1687545900B9BA13 /* libjasper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D102AA7E1687545900B9BA13 /* libjasper.a */; };
 		D10DD2C4135FA56100319781 /* C_TIME.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D10DD2C2135FA56100319781 /* C_TIME.cpp */; };
 		D10DD2C5135FA56100319781 /* C_TIME.h in Headers */ = {isa = PBXBuildFile; fileRef = D10DD2C3135FA56100319781 /* C_TIME.h */; };
 		D10DD2EB135FAB2F00319781 /* C_DATE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D10DD2E9135FAB2F00319781 /* C_DATE.cpp */; };
@@ -74,6 +79,11 @@
 		18B685220694531300CC6A1E /* 4DPlugin.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = 4DPlugin.rsrc; sourceTree = "<group>"; };
 		32BAE0B30371A71500C91783 /* 4D Plugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "4D Plugin_Prefix.pch"; sourceTree = "<group>"; };
 		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D102AA5B168750C100B9BA13 /* libfreetype.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.2.4.11.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libfreetype.2.4.11.dylib; sourceTree = "<group>"; };
+		D102AA5E168750CE00B9BA13 /* liblcms2.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblcms2.2.4.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/liblcms2.2.4.dylib; sourceTree = "<group>"; };
+		D102AA60168750DB00B9BA13 /* libwmf.0.2.7.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwmf.0.2.7.1.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libwmf.0.2.7.1.dylib; sourceTree = "<group>"; };
+		D102AA61168750DB00B9BA13 /* libwmflite.0.2.7.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwmflite.0.2.7.1.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libwmflite.0.2.7.1.dylib; sourceTree = "<group>"; };
+		D102AA7E1687545900B9BA13 /* libjasper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjasper.a; path = GNU/lib/libjasper.a; sourceTree = SYSTEM_DEVELOPER_DIR; };
 		D10DD2C2135FA56100319781 /* C_TIME.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = C_TIME.cpp; path = Classes/C_TIME.cpp; sourceTree = "<group>"; };
 		D10DD2C3135FA56100319781 /* C_TIME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C_TIME.h; path = Classes/C_TIME.h; sourceTree = "<group>"; };
 		D10DD2E9135FAB2F00319781 /* C_DATE.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = C_DATE.cpp; path = Classes/C_DATE.cpp; sourceTree = "<group>"; };
@@ -131,6 +141,11 @@
 				D1AB6E4616845CB3008584E3 /* libtiff.4.0.3.dylib in Frameworks */,
 				D1AB6E4716845CB3008584E3 /* libtiffxx.4.0.3.dylib in Frameworks */,
 				D1AB6E4816845CB3008584E3 /* libz.1.2.7.dylib in Frameworks */,
+				D102AA5C168750C100B9BA13 /* libfreetype.2.4.11.dylib in Frameworks */,
+				D102AA5F168750CE00B9BA13 /* liblcms2.2.4.dylib in Frameworks */,
+				D102AA62168750DB00B9BA13 /* libwmf.0.2.7.1.dylib in Frameworks */,
+				D102AA63168750DB00B9BA13 /* libwmflite.0.2.7.1.dylib in Frameworks */,
+				D102AA7F1687545900B9BA13 /* libjasper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,13 +166,18 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				D102AA7E1687545900B9BA13 /* libjasper.a */,
+				D102AA5B168750C100B9BA13 /* libfreetype.2.4.11.dylib */,
 				D1AB6E3916845CB3008584E3 /* libjpeg.8d.dylib */,
+				D102AA5E168750CE00B9BA13 /* liblcms2.2.4.dylib */,
 				D1AB6E3A16845CB3008584E3 /* libMagick++.6.8.1.dylib */,
 				D1AB6E3B16845CB3008584E3 /* libMagickCore.6.8.1.dylib */,
 				D1AB6E3C16845CB3008584E3 /* libMagickWand.6.8.1.dylib */,
 				D1AB6E3D16845CB3008584E3 /* libpng.1.5.13.dylib */,
 				D1AB6E3E16845CB3008584E3 /* libtiff.4.0.3.dylib */,
 				D1AB6E3F16845CB3008584E3 /* libtiffxx.4.0.3.dylib */,
+				D102AA60168750DB00B9BA13 /* libwmf.0.2.7.1.dylib */,
+				D102AA61168750DB00B9BA13 /* libwmflite.0.2.7.1.dylib */,
 				D1AB6E4016845CB3008584E3 /* libz.1.2.7.dylib */,
 				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
 				D130064E12F02D9700702C0E /* Cocoa.framework */,
@@ -418,9 +438,13 @@
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(DEVELOPER_DIR)/GNU/lib\"";
 				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -458,9 +482,13 @@
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(DEVELOPER_DIR)/GNU/lib\"";
 				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -496,9 +524,13 @@
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(DEVELOPER_DIR)/GNU/lib\"";
 				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
