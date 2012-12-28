@@ -109,7 +109,7 @@
       <TargetMachine>MachineX86</TargetMachine>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <AdditionalDependencies>libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libwmf.lib;libfreetype.2.4.11.lib;jp2.lib;libz.1.2.7.lib;libtiff.4.0.3.lib;libjpeg.8d.lib;libpng.1.5.13.lib;ws2_32.lib;;xml2.lib;jbig.lib;lcms2.2.4.lib;bz2.1.0.lib;libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -132,6 +132,7 @@
       <ModuleDefinitionFile>.\4D Plugin API\4DPluginAPI.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>libwmf.lib;libfreetype.2.4.11.lib;jp2.lib;libz.1.2.7.lib;libtiff.4.0.3.lib;libjpeg.8d.lib;libpng.1.5.13.lib;ws2_32.lib;xml2.lib;jbig.lib;lcms2.2.4.lib;bz2.1.0.lib;libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -157,7 +158,7 @@
       <TargetMachine>MachineX86</TargetMachine>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <AdditionalDependencies>libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libwmf.lib;libfreetype.2.4.11.lib;jp2.lib;libz.1.2.7.lib;libtiff.4.0.3.lib;libjpeg.8d.lib;libpng.1.5.13.lib;ws2_32.lib;;xml2.lib;jbig.lib;lcms2.2.4.lib;bz2.1.0.lib;libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -182,7 +183,7 @@
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <AdditionalDependencies>libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libwmf.lib;libfreetype.2.4.11.lib;jp2.lib;libz.1.2.7.lib;libtiff.4.0.3.lib;libjpeg.8d.lib;libpng.1.5.13.lib;ws2_32.lib;xml2.lib;jbig.lib;lcms2.2.4.lib;bz2.1.0.lib;libMagickCore.6.8.1.lib;libMagick++.6.8.1.lib;libMagickWand.6.8.1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

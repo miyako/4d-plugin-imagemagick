@@ -424,7 +424,6 @@ void IM_Get_Format_List(sLONG_PTR *pResult, PackagePtr pParams)
 	Param1.fromParamAtIndex(pParams, 1);
 	Param1.setSize(1);
 	
-#if VERSIONMAC	
 	std::list<Magick::CoderInfo> coderList;
 	
 	Magick::coderInfoList( &coderList,				// Reference to output list
@@ -457,21 +456,7 @@ void IM_Get_Format_List(sLONG_PTR *pResult, PackagePtr pParams)
 		
 		entry ++;
 	}
-#else
-	//on windows, passing class as parameter across DLL generally ends in a crash...let's use C
-		
-	MagickCore::ExceptionInfo *exception = MagickCore::AcquireExceptionInfo();	
-	size_t size = 0;
 	
-	const MagickCore::CoderInfo **coderList = MagickCore::GetCoderInfoList("", &size, exception);
-
-	for(size_t i = 0;i < size; ++i)
-	{
-		Param1.appendUTF8String((const uint8_t *)coderList[i]->magick, strlen(coderList[i]->magick));
-	}
-	
-#endif	
-
 	Param1.toParamAtIndex(pParams, 1);
 	returnValue.setReturn(pResult);
 }

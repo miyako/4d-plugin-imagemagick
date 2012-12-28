@@ -78,9 +78,9 @@ namespace MagickCore
 #      if defined(__GNUC__)
 #       define MagickPPExport __attribute__ ((dllimport))
 #      else
-#       define MagickPPExport __declspec(dllimport)
+#       define MagickPPExport 
 #      endif
-#      define MagickPPPrivate extern __declspec(dllimport)
+#      define MagickPPPrivate 
 #      if defined(_VISUALC_)
 #        pragma message( "Magick++ lib DLL import" )
 #      endif
