@@ -4,6 +4,7 @@
 #include "Magick++.h"
 
 #if WIN32
+#include "magick/magic.h"
 #else
 #ifndef min
 #define min(a,b) (((a) < (b)) ? (a) : (b))
@@ -18,7 +19,7 @@
 #define ImageMagickErrorUnitialized		-3
 #define ImageMagickErrorUnknownCommand	-4
 
-using namespace Magick; 
+//using namespace Magick; 
 
 class IMImage2
 {

@@ -197,7 +197,49 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>D157BE42168D577100CA1700</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>functions_imgk.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>D157BE43168D577100CA1700</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>functions_imgk.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>D1B81E0B168D5F83004AA9DF</string>
+						<key>history</key>
+						<array>
+							<string>D157BE44168D577100CA1700</string>
+							<string>D157BE52168D582900CA1700</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {755, 726}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>428 111 755 767 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -229,6 +271,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -301,7 +345,7 @@
 							<real>266</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>433 207 848 671 0 0 1440 878 </string>
+						<string>0 207 848 671 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -312,8 +356,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -331,19 +373,20 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D161EB24168C415100C54884</string>
+										<string>D1B81E08168D5F83004AA9DF</string>
 										<key>history</key>
 										<array>
 											<string>D14988F01683F06600278DF5</string>
 											<string>D1F9815516842939000FEAA8</string>
-											<string>D1F9815716842939000FEAA8</string>
-											<string>D1F9815816842939000FEAA8</string>
 											<string>D1F9824F16844423000FEAA8</string>
 											<string>D1F9825016844423000FEAA8</string>
 											<string>D1F9825116844423000FEAA8</string>
-											<string>D1F982691684447F000FEAA8</string>
-											<string>D107D24D16847562009B21AF</string>
-											<string>D12AB16A1689FEC500CD2820</string>
+											<string>D157BE36168D577100CA1700</string>
+											<string>D157BE37168D577100CA1700</string>
+											<string>D157BE38168D577100CA1700</string>
+											<string>D157BE39168D577100CA1700</string>
+											<string>D157BE3A168D577100CA1700</string>
+											<string>D157BE51168D582900CA1700</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +398,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {575, 583}}</string>
+								<string>{{0, 0}, {575, 581}}</string>
 								<key>RubberWindowFrame</key>
-								<string>433 207 848 671 0 0 1440 878 </string>
+								<string>0 207 848 671 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>583pt</string>
+							<string>581pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +418,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 588}, {575, 42}}</string>
+								<string>{{0, 586}, {575, 44}}</string>
 								<key>RubberWindowFrame</key>
-								<string>433 207 848 671 0 0 1440 878 </string>
+								<string>0 207 848 671 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>42pt</string>
+							<string>44pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -401,9 +444,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D161EB1D168C413C00C54884</string>
+				<string>D1B81E09168D5F83004AA9DF</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D161EB1E168C413C00C54884</string>
+				<string>D1B81E0A168D5F83004AA9DF</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -542,10 +585,11 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>D10A4B2716839DFF00CC9ADE</string>
-		<string>/Users/miyako/Desktop/ImageMagick/ImageMagick.xcodeproj</string>
+		<string>D157BE42168D577100CA1700</string>
+		<string>/Users/miyako/github-miyako/4d-plugin-imagemagick/ImageMagick/ImageMagick.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>433 207 848 671 0 0 1440 878 </string>
+	<string>0 207 848 671 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -622,7 +666,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D10A4B2716839DFF00CC9ADE</string>
-				<string>D161EB1F168C413C00C54884</string>
+				<string>D1B81E0C168D5F83004AA9DF</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -744,13 +788,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>D12AB1571689FD0800CD2820</string>
+				<string>D157BE48168D577100CA1700</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>D12AB1581689FD0800CD2820</string>
-				<string>D12AB1591689FD0800CD2820</string>
-				<string>D12AB15A1689FD0800CD2820</string>
-				<string>D12AB15B1689FD0800CD2820</string>
-				<string>D12AB15C1689FD0800CD2820</string>
+				<string>D157BE49168D577100CA1700</string>
+				<string>D157BE4A168D577100CA1700</string>
+				<string>D157BE4B168D577100CA1700</string>
+				<string>D157BE4C168D577100CA1700</string>
+				<string>D157BE4D168D577100CA1700</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
