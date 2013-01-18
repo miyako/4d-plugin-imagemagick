@@ -2,9 +2,9 @@
 
 #include "functions_imgk.h"
 
-IMImage2::IMImage2() : _image(), _initialized(false)
+IMImage2::IMImage2() : _initialized(false)
 {
-
+	_image = 0;
 }
 
 IMImage2::~IMImage2()

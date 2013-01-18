@@ -5,9 +5,7 @@
 std::map<uint32_t, IMImage2*> _objects;
 
 IMImage2 *_objectCreate(unsigned int *index)
-{
-	Magick::Image _image;
-	
+{	
 	IMImage2 *obj = new(IMImage2);
 	
 	unsigned int i = 1;
