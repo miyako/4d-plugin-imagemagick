@@ -1,8 +1,4 @@
 
-.DS_Store
+*.DS_Store
 
-ImageMagick/.DS_Store
-
-ImageMagick/4D Plugin API/Classes/.DS_Store
-
-ImageMagick/include/.DS_Store
+*.suo
