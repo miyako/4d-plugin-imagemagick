@@ -1,35 +1,16 @@
 4d-plugin-imagemagick
 =====================
 
-4D implementation of ImageMagick 6.8.1 (currently only OS X i386)
+Updated version of [Tech Note: ImageMagick Plug-in](http://kb.4d.com/assetid=43892) by Thomas Maul.
 
-##Platform
+Using [ImageMagick](https://www.imagemagick.org/script/index.php)
+
+### Platform
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
-|🆗|🚫|🆗|🆗|
+|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|
 
-Commands
----
+### Version
 
-```c
-// --- Image Object
-IM_New_Object
-IM_Clear_Object
-IM_Copy
-IM_Create
-
-// --- Image Usage
-IM_Open_File
-IM_Save_File
-IM_Get_Image_Properties
-IM_Set_Image_Properties
-IM_Modify_Image
-IM_Open_Blob
-IM_Save_Blob
-IM_Draw
-
-// --- Utilities
-IM_Get_Last_Error
-IM_Get_Format_List
-```
+<img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> <img src="https://cloud.githubusercontent.com/assets/1725068/18940648/2192ddba-8645-11e6-864d-6d5692d55717.png" width="32" height="32" />
