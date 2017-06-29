@@ -3,7 +3,7 @@
 
 Updated version of [Tech Note: ImageMagick Plug-in](http://kb.4d.com/assetid=43892) by Thomas Maul.
 
-Using [ImageMagick 7](https://www.imagemagick.org/script/index.php)
+Using [ImageMagick](https://www.imagemagick.org/script/index.php)
 
 ### Platform
 
