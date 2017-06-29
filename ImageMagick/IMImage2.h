@@ -36,12 +36,12 @@ class IMImage2
 	~IMImage2(void);
 	
 	int read(C_TEXT &path);
-	int read(C_BLOB &data);
+	int read(const void *data,const size_t length);
 	
 	int create(int x, int y, C_TEXT &color);
 	
 	int write(C_TEXT &path);
-	int write(C_BLOB &data);
+	int write(PA_PluginParameters params, short index);
 	
 	int GetProperty(int selector, C_TEXT &stringpara, double &para1, double &para2, double &para3, double &para4);
 	int SetProperty(int selector, C_TEXT &stringpara, double para1, double para2, double para3, double para4);

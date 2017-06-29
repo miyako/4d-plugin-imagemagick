@@ -1,6 +1,5 @@
 #include "IMImage2.h"
-
-#include "functions_imgk.h"
+#include "4DPlugin.h"
 
 IMImage2::IMImage2() : _initialized(false)
 {
@@ -24,14 +23,15 @@ int IMImage2::read(C_TEXT &path)
 	catch(Magick::Exception &error_) 
 	{
 		_lastError.setUTF8String((const uint8_t *)error_.what(), strlen(error_.what()));
-		return ImageMagickErrorFramework;
+		_initialized = _image.isValid();//error could just be a warning about config.xml
+		return _initialized ? 0 : ImageMagickErrorFramework;
 	}
 }
 
-int IMImage2::read(C_BLOB &data)
+int IMImage2::read(const void *data,const size_t length)
 {
 	try { 
-			Magick::Blob myblob(data.getBytesPtr(), data.getBytesLength());
+			Magick::Blob myblob(data, length);
 			_image.read(myblob);
 			_initialized = true;
 			return 0;
@@ -39,7 +39,8 @@ int IMImage2::read(C_BLOB &data)
 	catch(Magick::Exception &error_) 
 	{
 		_lastError.setUTF8String((const uint8_t *)error_.what(), strlen(error_.what()));
-		return ImageMagickErrorFramework;
+		_initialized = _image.isValid();//error could just be a warning about config.xml
+		return _initialized ? 0 : ImageMagickErrorFramework;
 	}
 }
 
@@ -81,7 +82,7 @@ int IMImage2::write(C_TEXT &path)
 	}
 }
 
-int IMImage2::write(C_BLOB &data)
+int IMImage2::write(PA_PluginParameters params, short index)
 {
 	if (!_initialized)
 		return ImageMagickErrorUnitialized;
@@ -92,7 +93,7 @@ int IMImage2::write(C_BLOB &data)
 	try { 
 			Magick::Blob myblob;
 			_image.write(&myblob);
-			data.setBytes((const uint8_t *)myblob.data(), myblob.length());
+			PA_SetBlobParameter(params, index, (void *)myblob.data(), myblob.length());
 			return 0;
 		}
 	catch(Magick::Exception &error_) 
@@ -353,7 +354,8 @@ int IMImage2::Draw(int selector, C_TEXT &stringpara, double para1, double para2,
 			case IM_Draw_Matte: 
 				{
 					int paint = (int) para3;
-					_image.draw(Magick::DrawableMatte(para1, para2, (Magick::PaintMethod) paint));
+//					_image.draw(Magick::DrawableMatte(para1, para2, (Magick::PaintMethod) paint));
+					_image.draw(Magick::DrawableAlpha(para1, para2, (Magick::PaintMethod) paint));
 				}
 				break;			
 
@@ -370,9 +372,10 @@ int IMImage2::Draw(int selector, C_TEXT &stringpara, double para1, double para2,
 					_image.font("Arial");
 					_image.draw(Magick::DrawableFont("Arial"));
 					_image.fontPointsize(para3);
-					_image.penColor("black");
+//					_image.penColor("black");
+					_image.colorize(100, "black");
 					_image.backgroundColor("white");
-		
+
 					stringpara.copyUTF8String(&dummystr);
 					_image.draw(Magick::DrawableText(para1, para2, (const char *)dummystr.c_str()));
 				}
@@ -407,7 +410,7 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 		switch (selector)
 		{
 			case IM_Mod_addNoise: 
-				_image.addNoise((const MagickCore::NoiseType)(long)para1);
+				_image.addNoise((const MagickCore::NoiseType)(Magick::ChannelType)para1);
 				break;
 
 			case IM_Mod_flip: 
@@ -427,10 +430,11 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 
 			case IM_Mod_crop:  //  x1, y1, x2, y2
-				geo.xOff((long)para1);
-				geo.yOff((long)para2);
-				geo.width((long)(para3-para1));
-				geo.height((long)(para4-para2));
+				geo = Magick::Geometry((para3-para1), (para4-para2), para1, para2);
+//				geo.xOff(para1);
+//				geo.yOff(para2);
+//				geo.width((para3-para1));
+//				geo.height((para4-para2));
 				_image.crop(geo);
 				break;
 
@@ -442,7 +446,7 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 
 			case IM_Mod_contrast:  //sharpen
-				_image.contrast((long)para1);
+				_image.contrast((bool)para1);
 				break;
 
 			case IM_Mod_despeckle:  
@@ -450,17 +454,17 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 
 			case IM_Mod_adaptiveThreshold:  //  unsigned int width, unsigned int height, unsigned offset = 0
-				_image.adaptiveThreshold((long)para1, (long)para2, (long)para3);
+				_image.adaptiveThreshold((size_t)para1, (size_t)para2, (double)para3);
 				break;
 
 			case IM_Mod_Zoom:
-				geo.width((long)para1);
-				geo.height((long)para2);
+				geo.width((size_t)para1);
+				geo.height((size_t)para2);
 				_image.zoom(geo);
 				break;
 				
 			case IM_Mod_Edge:
-				_image.edge((long)para1);
+				_image.edge((double)para1);
 				break;		
 				
 			case IM_Mod_Emboss:
@@ -476,7 +480,7 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 				
 			case IM_Mod_Frame:
-				_image.frame((long)para1, (long)para2, (long)para3, (long)para4);
+				_image.frame((size_t)para1, (size_t)para2, (::ssize_t)para3, (::ssize_t)para4);
 				break;	
 				
 			case IM_Mod_Gamma:
@@ -523,10 +527,11 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 				
 			case IM_Mod_Raise:
-				geo.width((long)(para1));
-				geo.height((long)(para2));
-				geo.xOff((long)para3);
-				geo.yOff((long)para4);				
+				geo = Magick::Geometry(para1, para2, para3, para4);
+//				geo.width((para1));
+//				geo.height((para2));
+//				geo.xOff(para3);
+//				geo.yOff(para4);
 				_image.raise(geo, (para5 != 0));
 				break;
 				
@@ -538,18 +543,18 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 				
 			case IM_Mod_Roll:
-				_image.roll((long)para1, (long)para2);
+				_image.roll((size_t)para1, (size_t)para2);
 				break;
 				
 			case IM_Mod_Sample:
-				geo.width((long)para1);
-				geo.height((long)para2);				
+				geo.width((size_t)para1);
+				geo.height((size_t)para2);
 				_image.sample(geo);
 				break;
 				
 			case IM_Mod_Scale:
-				geo.width((long)para1);
-				geo.height((long)para2);				
+				geo.width((size_t)para1);
+				geo.height((size_t)para2);
 				_image.scale(geo);
 				break;
 				
@@ -566,8 +571,8 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 				break;
 				
 			case IM_Mod_Shave:
-				geo.width((long)para1);
-				geo.height((long)para2);				
+				geo.width((size_t)para1);
+				geo.height((size_t)para2);				
 				_image.shave(geo);
 				break;
 				
