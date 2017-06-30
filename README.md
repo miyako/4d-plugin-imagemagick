@@ -7,7 +7,9 @@ Using [ImageMagick](https://www.imagemagick.org/script/index.php) with basic con
 
 * Mac
 
-**Features**: DPC
+**Features**: DPC 
+Cipher
+HDRI
 
 **Delegates**: bzlib
 fontconfig
