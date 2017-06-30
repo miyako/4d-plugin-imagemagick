@@ -2,3 +2,5 @@
 *.DS_Store
 
 *.suo
+VC14/*
+stdc/*
