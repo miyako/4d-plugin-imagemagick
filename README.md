@@ -3,7 +3,26 @@
 
 Updated version of [Tech Note: ImageMagick Plug-in](http://kb.4d.com/assetid=43892) by Thomas Maul.
 
-Using [ImageMagick](https://www.imagemagick.org/script/index.php)
+Using [ImageMagick](https://www.imagemagick.org/script/index.php) with basic configuration:
+
+* Features
+
+DPC
+
+* Delegates
+
+bzlib
+fontconfig
+freetype
+jng
+jp2
+jpeg
+lzma
+pangocairo
+png
+tiff
+xml
+zlib
 
 ### Platform
 
