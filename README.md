@@ -5,13 +5,11 @@ Updated version of [Tech Note: ImageMagick Plug-in](http://kb.4d.com/assetid=438
 
 Using [ImageMagick](https://www.imagemagick.org/script/index.php) with basic configuration:
 
-* Features
+* Mac
 
-DPC
+``Features**: DPC
 
-* Delegates
-
-bzlib
+**Delegates**: bzlib
 fontconfig
 freetype
 jng
