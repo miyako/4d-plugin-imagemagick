@@ -410,7 +410,7 @@ int IMImage2::ModifyImage(int selector, C_TEXT &stringpara, double para1, double
 		switch (selector)
 		{
 			case IM_Mod_addNoise: 
-				_image.addNoise((const MagickCore::NoiseType)(Magick::ChannelType)para1);
+				_image.addNoise((const MagickCore::NoiseType)(int)para1);
 				break;
 
 			case IM_Mod_flip: 
