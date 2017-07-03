@@ -25,7 +25,7 @@ https://github.com/miyako/4d-plugin-imagemagick/releases/tag/2.0.0
 
 CLIPBOARD
 EMF
-EXR
+~~EXR~~
 FLIF
 WEBP
 WMF
@@ -86,6 +86,7 @@ EPT
 EPT2
 EPT3
 ERF
+**EXR**
 FAX
 FILE
 FITS
