@@ -52,6 +52,13 @@
 		D13116F41A03C7AF00DE1322 /* ARRAY_DATE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D13116F21A03C7AF00DE1322 /* ARRAY_DATE.cpp */; };
 		D13116F51A03C7AF00DE1322 /* ARRAY_DATE.h in Headers */ = {isa = PBXBuildFile; fileRef = D13116F31A03C7AF00DE1322 /* ARRAY_DATE.h */; };
 		D134D4AC1A030BA0008D14EF /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = D134D4A91A030B06008D14EF /* manifest.json */; };
+		D1429A401F09D6CA008CD61E /* libHalf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A391F09D6CA008CD61E /* libHalf.a */; };
+		D1429A411F09D6CA008CD61E /* libIex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A3A1F09D6CA008CD61E /* libIex.a */; };
+		D1429A421F09D6CA008CD61E /* libIexMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A3B1F09D6CA008CD61E /* libIexMath.a */; };
+		D1429A431F09D6CA008CD61E /* libIlmImf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A3C1F09D6CA008CD61E /* libIlmImf.a */; };
+		D1429A441F09D6CA008CD61E /* libIlmImfUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A3D1F09D6CA008CD61E /* libIlmImfUtil.a */; };
+		D1429A451F09D6CA008CD61E /* libIlmThread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A3E1F09D6CA008CD61E /* libIlmThread.a */; };
+		D1429A461F09D6CA008CD61E /* libImath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1429A3F1F09D6CA008CD61E /* libImath.a */; };
 		D175D9CD1A02E8DD0006B569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */; };
 		D188FBD01F04D590003717B9 /* IMImage2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D188FBCE1F04D590003717B9 /* IMImage2.cpp */; };
 		D188FBD11F04D590003717B9 /* IMImage2.h in Headers */ = {isa = PBXBuildFile; fileRef = D188FBCF1F04D590003717B9 /* IMImage2.h */; };
@@ -144,6 +151,13 @@
 		D13116F21A03C7AF00DE1322 /* ARRAY_DATE.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ARRAY_DATE.cpp; path = Classes/ARRAY_DATE.cpp; sourceTree = "<group>"; };
 		D13116F31A03C7AF00DE1322 /* ARRAY_DATE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARRAY_DATE.h; path = Classes/ARRAY_DATE.h; sourceTree = "<group>"; };
 		D134D4A91A030B06008D14EF /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		D1429A391F09D6CA008CD61E /* libHalf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHalf.a; path = stdc/a/libHalf.a; sourceTree = "<group>"; };
+		D1429A3A1F09D6CA008CD61E /* libIex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIex.a; path = stdc/a/libIex.a; sourceTree = "<group>"; };
+		D1429A3B1F09D6CA008CD61E /* libIexMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIexMath.a; path = stdc/a/libIexMath.a; sourceTree = "<group>"; };
+		D1429A3C1F09D6CA008CD61E /* libIlmImf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImf.a; path = stdc/a/libIlmImf.a; sourceTree = "<group>"; };
+		D1429A3D1F09D6CA008CD61E /* libIlmImfUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImfUtil.a; path = stdc/a/libIlmImfUtil.a; sourceTree = "<group>"; };
+		D1429A3E1F09D6CA008CD61E /* libIlmThread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmThread.a; path = stdc/a/libIlmThread.a; sourceTree = "<group>"; };
+		D1429A3F1F09D6CA008CD61E /* libImath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libImath.a; path = stdc/a/libImath.a; sourceTree = "<group>"; };
 		D14D10DD1A03A8A5008B3411 /* constants.xlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = constants.xlf; sourceTree = "<group>"; };
 		D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D188FBCE1F04D590003717B9 /* IMImage2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = IMImage2.cpp; sourceTree = "<group>"; };
@@ -181,8 +195,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1429A431F09D6CA008CD61E /* libIlmImf.a in Frameworks */,
+				D1429A441F09D6CA008CD61E /* libIlmImfUtil.a in Frameworks */,
+				D1429A451F09D6CA008CD61E /* libIlmThread.a in Frameworks */,
+				D1429A461F09D6CA008CD61E /* libImath.a in Frameworks */,
 				D188FC531F054421003717B9 /* libz.a in Frameworks */,
 				D188FC5A1F054435003717B9 /* libgobject-2.0.a in Frameworks */,
+				D1429A421F09D6CA008CD61E /* libIexMath.a in Frameworks */,
+				D1429A411F09D6CA008CD61E /* libIex.a in Frameworks */,
 				D188FC4D1F0543E8003717B9 /* libMagickWand-7.Q16HDRI.a in Frameworks */,
 				D188FC051F04DA0C003717B9 /* libbz2.dylib in Frameworks */,
 				D188FC711F0544CC003717B9 /* libpangoft2-1.0.a in Frameworks */,
@@ -195,6 +215,7 @@
 				D188FC5B1F054435003717B9 /* libgthread-2.0.a in Frameworks */,
 				D188FC6D1F0544AF003717B9 /* libpango-1.0.a in Frameworks */,
 				D188FC5F1F054458003717B9 /* libharfbuzz.a in Frameworks */,
+				D1429A401F09D6CA008CD61E /* libHalf.a in Frameworks */,
 				D188FC431F04F667003717B9 /* libopenjp2.a in Frameworks */,
 				D188FC6B1F05449D003717B9 /* liblzma.a in Frameworks */,
 				D188FC451F05439B003717B9 /* libMagickCore-7.Q16HDRI.a in Frameworks */,
@@ -350,6 +371,13 @@
 		D188FC3B1F04F5CF003717B9 /* a */ = {
 			isa = PBXGroup;
 			children = (
+				D1429A391F09D6CA008CD61E /* libHalf.a */,
+				D1429A3A1F09D6CA008CD61E /* libIex.a */,
+				D1429A3B1F09D6CA008CD61E /* libIexMath.a */,
+				D1429A3C1F09D6CA008CD61E /* libIlmImf.a */,
+				D1429A3D1F09D6CA008CD61E /* libIlmImfUtil.a */,
+				D1429A3E1F09D6CA008CD61E /* libIlmThread.a */,
+				D1429A3F1F09D6CA008CD61E /* libImath.a */,
 				D188FC501F05440F003717B9 /* libcairo.a */,
 				D188FC461F0543AC003717B9 /* libfreetype.a */,
 				D188FC481F0543BA003717B9 /* libfontconfig.a */,
