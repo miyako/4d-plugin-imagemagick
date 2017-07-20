@@ -28,6 +28,26 @@ bool IsProcessOnExit()
 
 void OnStartup()
 {
+#if VERSIONWIN
+
+	wchar_t thisPath[_MAX_PATH] = { 0 };
+	HMODULE hplugin = GetModuleHandleW(L"ImageMagick.4DX");
+	GetModuleFileNameW(hplugin, thisPath, _MAX_PATH);
+
+	wchar_t fDrive[_MAX_DRIVE], fDir[_MAX_DIR], fName[_MAX_FNAME], fExt[_MAX_EXT];
+	_wsplitpath_s(thisPath, fDrive, fDir, fName, fExt);
+
+	wchar_t	folder_path[_MAX_PATH] = { 0 };
+	_wmakepath_s(folder_path, fDrive, fDir, NULL, NULL);
+
+	//remove the directory separator
+	std::wstring MAGICK_GHOSTSCRIPT_PATH = folder_path;
+	MAGICK_GHOSTSCRIPT_PATH.pop_back();
+
+	SetEnvironmentVariable(L"MAGICK_GHOSTSCRIPT_PATH", MAGICK_GHOSTSCRIPT_PATH.c_str());
+
+#endif
+
 	MagickCore::MagickCoreGenesis(0, MagickCore::MagickFalse);
 }
 
