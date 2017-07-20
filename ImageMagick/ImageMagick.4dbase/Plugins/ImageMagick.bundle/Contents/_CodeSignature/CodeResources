@@ -112,15 +112,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/ImageMagick.html</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			D9JLr3/HtluQgwQNP+jR5LbzKLM=
-			</data>
-			<key>requirement</key>
-			<string>identifier ImageMagick and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
 		<key>QuickLook/Thumbnail.png</key>
 		<dict>
 			<key>hash</key>
@@ -420,17 +411,6 @@
 			6I6H4155OGGB3ZJucucs+9jipnchVkafmDKggkJEQ1o=
 			</data>
 		</dict>
-		<key>Windows/ImageMagick.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
-			</data>
-			<key>hash2</key>
-			<data>
-			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
-			</data>
-		</dict>
 		<key>Windows64/ImageMagick.4DX</key>
 		<dict>
 			<key>hash</key>
@@ -440,17 +420,6 @@
 			<key>hash2</key>
 			<data>
 			9eAPCkL72Ria5H7BiKuy89Le4pwGxRiXfgEr6yvGafM=
-			</data>
-		</dict>
-		<key>Windows64/ImageMagick.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
-			</data>
-			<key>hash2</key>
-			<data>
-			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
 			</data>
 		</dict>
 		<key>manifest.json</key>
