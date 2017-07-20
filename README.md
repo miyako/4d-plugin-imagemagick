@@ -273,3 +273,21 @@ YUV
 ## Syntax
 
 See [Tech Note: ImageMagick Plug-in](https://github.com/miyako/4d-plugin-imagemagick/blob/master/ImageMagick/06-32%20ImageMagick.pdf)
+
+### Example
+
+* Convert PDF to PNG
+
+```
+DOCUMENT TO BLOB(System folder(Desktop)+"test.pdf";$PDF)
+
+$im:=IM New Object 
+$error:=IM Open Blob ($im;$PDF)
+$error:=IM Set Image Properties ($im;IM_Pref_Magick;"PNG")
+$error:=IM Save Blob ($im;$PNG)
+  //or...
+  //$error:=IM Save File($im;System folder(Desktop)+"test.png")
+$error:=IM Clear Object ($im)
+
+BLOB TO DOCUMENT(System folder(Desktop)+"test.png";$PNG)
+```
