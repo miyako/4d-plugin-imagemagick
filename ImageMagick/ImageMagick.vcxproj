@@ -294,7 +294,7 @@
       <EntryPointSymbol>
       </EntryPointSymbol>
       <AdditionalLibraryDirectories>VC14\x86</AdditionalLibraryDirectories>
-      <AdditionalDependencies>CORE_RL_pango_.lib;CORE_RL_Magick++_.lib;CORE_RL_coders_.lib;CORE_RL_filters_.lib;CORE_RL_MagickWand_.lib;CORE_RL_openjpeg_.lib;CORE_RL_librsvg_.lib;CORE_RL_flif_.lib;CORE_RL_exr_.lib;CORE_RL_MagickCore_.lib;CORE_RL_tiff_.lib;CORE_RL_libxml_.lib;CORE_RL_jp2_.lib;CORE_RL_ffi_.lib;CORE_RL_glib_.lib;CORE_RL_pixman_.lib;CORE_RL_png_.lib;CORE_RL_zlib_.lib;CORE_RL_cairo_.lib;CORE_RL_lcms_.lib;CORE_RL_ttf_.lib;CORE_RL_lqr_.lib;CORE_RL_bzlib_.lib;CORE_RL_croco_.lib;CORE_RL_jpeg_.lib;CORE_RL_webp_.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>gsdll32.lib;CORE_RL_pango_.lib;CORE_RL_Magick++_.lib;CORE_RL_coders_.lib;CORE_RL_filters_.lib;CORE_RL_MagickWand_.lib;CORE_RL_openjpeg_.lib;CORE_RL_librsvg_.lib;CORE_RL_flif_.lib;CORE_RL_exr_.lib;CORE_RL_MagickCore_.lib;CORE_RL_tiff_.lib;CORE_RL_libxml_.lib;CORE_RL_jp2_.lib;CORE_RL_ffi_.lib;CORE_RL_glib_.lib;CORE_RL_pixman_.lib;CORE_RL_png_.lib;CORE_RL_zlib_.lib;CORE_RL_cairo_.lib;CORE_RL_lcms_.lib;CORE_RL_ttf_.lib;CORE_RL_lqr_.lib;CORE_RL_bzlib_.lib;CORE_RL_croco_.lib;CORE_RL_jpeg_.lib;CORE_RL_webp_.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

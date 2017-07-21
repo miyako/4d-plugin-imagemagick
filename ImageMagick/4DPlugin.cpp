@@ -44,7 +44,9 @@ void OnStartup()
 	std::wstring MAGICK_GHOSTSCRIPT_PATH = folder_path;
 	MAGICK_GHOSTSCRIPT_PATH.pop_back();
 
-	SetEnvironmentVariable(L"MAGICK_GHOSTSCRIPT_PATH", MAGICK_GHOSTSCRIPT_PATH.c_str());
+	//SetEnvironmentVariable(L"MAGICK_GHOSTSCRIPT_PATH", MAGICK_GHOSTSCRIPT_PATH.c_str());
+
+	_wputenv_s(L"MAGICK_GHOSTSCRIPT_PATH", MAGICK_GHOSTSCRIPT_PATH.c_str());
 
 #endif
 
