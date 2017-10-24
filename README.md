@@ -29,8 +29,6 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 
 ```
 --without-x 
---enable-static 
---enable-shared  
 --enable-hdri 
 --enable-cipher 
 --enable-zero-configuration 
