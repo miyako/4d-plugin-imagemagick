@@ -23,9 +23,33 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 
 [4d-plugin-gs](https://github.com/miyako/4d-plugin-gs)
 
-### Issues 
+### Build Information
 
-When installed on 4D Server, the client manager thread crashes after unloading ``libgs.dylib``
+* Notable build flags on Mac
+
+```
+--without-x 
+--disable-threading 
+--without-libidn
+--disable-cups
+```
+
+**Note**: On Mac, need to ``make so`` to build a ``dylib``
+
+https://www.ghostscript.com/doc/9.21/Make.htm#Mac_build
+
+**Issue (fixed)**: When 4D Server.app is quit (not when the structure is closed), the following error is systematically raised in the client manager thread.
+
+```
+_pthread_tsd_cleanup
+_pthread_exit
+pthread_exit
+TSExit
+YieldToThread
+SetThreadState
+```
+
+``pthread`` seems to be used for ``CUPS``; let's __disable it__.
 
 ### Formats
 
