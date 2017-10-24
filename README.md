@@ -25,6 +25,21 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 
 ### Build Information
 
+* Notable build flags for ``ImageMagick`` on Mac
+
+```
+--without-x 
+--enable-static 
+--enable-shared  
+--enable-hdri 
+--enable-cipher 
+--enable-zero-configuration 
+--without-perl 
+--without-x 
+--with-openexr 
+--without-threads 
+```
+
 * Notable build flags for ``libgs`` on Mac
 
 ```
