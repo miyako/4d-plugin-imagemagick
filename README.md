@@ -28,14 +28,13 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 * Notable build flags for ``ImageMagick`` on Mac
 
 ```
---without-x 
 --enable-hdri 
 --enable-cipher 
 --enable-zero-configuration 
+--without-x
 --without-perl 
---without-x 
+--without-threads
 --with-openexr 
---without-threads 
 ```
 
 * Notable build flags for ``libgs`` on Mac
