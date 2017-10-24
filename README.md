@@ -25,7 +25,7 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 
 ### Build Information
 
-* Notable build flags on Mac
+* Notable build flags for ``libgs`` on Mac
 
 ```
 --without-x 
@@ -38,7 +38,7 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 
 https://www.ghostscript.com/doc/9.21/Make.htm#Mac_build
 
-**Issue (fixed)**: When 4D Server.app is quit (not when the structure is closed), the following error is systematically raised in the client manager thread.
+**Issue**: When 4D Server.app is quit (not when the structure is closed), the following error is systematically raised in the client manager thread.
 
 ```
 _pthread_tsd_cleanup
@@ -50,6 +50,8 @@ SetThreadState
 ```
 
 ``pthread`` seems to be used for ``CUPS``; let's __disable it__.
+
+**TODO**: disable threading for imagemagick itself.
 
 ### Formats
 
