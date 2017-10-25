@@ -31,10 +31,13 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 --enable-hdri 
 --enable-cipher 
 --enable-zero-configuration 
+--disable-dbus
 --without-x
 --without-perl 
 --without-threads
 --with-openexr 
+--with-gslib
+--with-drivers=FILES
 ```
 
 * Notable build flags for ``libgs`` on Mac
