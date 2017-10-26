@@ -69,7 +69,7 @@ SetThreadState
 
 ``pthread`` seems to be used for ``CUPS``; let's __disable it__.
 
-**TODO**: disable threading for imagemagick itself.
+**~~TODO**: disable threading for imagemagick itself~~.
 
 ### Formats
 
