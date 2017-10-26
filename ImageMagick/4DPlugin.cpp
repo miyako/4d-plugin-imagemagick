@@ -57,7 +57,7 @@ void OnCloseProcess()
 {
 	if(IsProcessOnExit())
 	{
-		MagickCore::MagickCoreTerminus();
+		//MagickCore::MagickCoreTerminus();
 	}
 }
 
@@ -145,7 +145,7 @@ void CommandDispatcher (PA_long32 pProcNum, sLONG_PTR *pResult, PackagePtr pPara
 		case kServerInitPlugin :
 			OnStartup();
 			break;
-			
+						
 		case kCloseProcess :
 			OnCloseProcess();
 			break;

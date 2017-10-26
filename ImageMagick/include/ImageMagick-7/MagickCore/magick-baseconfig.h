@@ -90,7 +90,9 @@
 #endif
 
 /* Define if you have Ghostscript library or framework */
-/* #undef GS_DELEGATE */
+#ifndef MAGICKCORE_GS_DELEGATE
+#define MAGICKCORE_GS_DELEGATE 1
+#endif
 
 /* Define if you have GVC library */
 /* #undef GVC_DELEGATE */
@@ -1173,7 +1175,7 @@
 
 /* Target Host OS */
 #ifndef MAGICKCORE_MAGICK_TARGET_OS
-#define MAGICKCORE_MAGICK_TARGET_OS darwin16.6.0
+#define MAGICKCORE_MAGICK_TARGET_OS darwin17.0.0
 #endif
 
 /* Target Host Vendor */
@@ -1196,7 +1198,9 @@
 /* #undef NDEBUG */
 
 /* Define if you have OPENEXR library */
-/* #undef OPENEXR_DELEGATE */
+#ifndef MAGICKCORE_OPENEXR_DELEGATE
+#define MAGICKCORE_OPENEXR_DELEGATE 1
+#endif
 
 /* Name of package */
 #ifndef MAGICKCORE_PACKAGE
@@ -1405,9 +1409,7 @@
 /* #undef STRERROR_R_CHAR_P */
 
 /* Define if you have POSIX threads libraries and header files. */
-#ifndef MAGICKCORE_THREAD_SUPPORT
-#define MAGICKCORE_THREAD_SUPPORT 1
-#endif
+/* #undef THREAD_SUPPORT */
 
 /* Define if you have TIFF library */
 #ifndef MAGICKCORE_TIFF_DELEGATE
@@ -1492,7 +1494,9 @@
 #endif
 
 /* Build self-contained, embeddable, zero-configuration ImageMagick */
-/* #undef ZERO_CONFIGURATION_SUPPORT */
+#ifndef MAGICKCORE_ZERO_CONFIGURATION_SUPPORT
+#define MAGICKCORE_ZERO_CONFIGURATION_SUPPORT 1
+#endif
 
 /* Define if you have ZLIB library */
 #ifndef MAGICKCORE_ZLIB_DELEGATE

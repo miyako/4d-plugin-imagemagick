@@ -1,0 +1,36 @@
+export CC="gcc"
+export CXX="g++"
+export CCFLAGS="-arch i386"
+export CXXFLAGS="-arch i386"
+export CFLAGS="-arch i386 -isysroot /Xcode3/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.8"
+export LDFLAGS="-arch i386 -isysroot /Xcode3/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.8 -L/usr/local/lib/"
+export CPPFLAGS="-arch i386 -isysroot /Xcode3/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.8 -I/usr/local/include -I/usr/local/include/cairo -I/usr/local/include/OpenEXR"
+
+./configure --prefix=/Users/miyako/Desktop/32 --without-x --enable-static --enable-shared --enable-hdri --enable-cipher --enable-zero-configuration --without-perl --without-x --with-gslib --without-pango
+
+export CC="gcc"
+export CXX="g++"
+export CCFLAGS="-arch x86_64"
+export CXXFLAGS="-arch x86_64"
+export CFLAGS="-arch x86_64 -isysroot /Xcode3/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.8"
+export LDFLAGS="-arch x86_64 -isysroot /Xcode3/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.8 -L/usr/local/lib/"
+export CPPFLAGS="-arch x86_64 -isysroot /Xcode3/SDKs/MacOSX10.8.sdk -mmacosx-version-min=10.8 -I/usr/local/include -I/usr/local/include/cairo -I/usr/local/include/OpenEXR"
+
+./configure --prefix=/Users/miyako/Desktop/64 --without-x --enable-static --enable-shared --enable-hdri --enable-cipher --enable-zero-configuration --without-perl --without-x --with-gslib --without-pango 
+
+removed
+{
+--without-fontconfig
+--without-freetype 
+--without-openexr
+--without-jpeg 
+--without-openjp2
+--without-png
+--without-zlib
+--without-tiff
+--without-bzlib
+--without-xml 
+--without-lzma 
+--without-threads 
+--disable-openmp 
+}

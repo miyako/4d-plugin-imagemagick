@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l6dYVtWiFWgUoFpJ9KRS503yTfA=
+			Wh/dw4BMhRFBAmj3U3RlSVDPHIE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,311 +112,14 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/libHalf.12.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			g5bu+0yVJPSZ7664pPVJxPDLitc=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libHalf.12" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libIex-2_2.12.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			N6ZzyMiYcf6M5HxAeyiDCvmYZCs=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libIex-2_2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libIexMath-2_2.12.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			AaG7hAVaKcEeA/fFchiL0ZAgntI=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libIexMath-2_2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libIlmImf-2_2.22.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			UziaQhcMz3jpG9Bg3HahC6rxlME=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libIlmImf-2_2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libIlmImfUtil-2_2.22.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			1/C6BG7ovfqWrN3pmO4g9TS6CMs=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libIlmImfUtil-2_2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libIlmThread-2_2.12.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			JVK3PTtn+WzxuiaNiWN9D8PphVY=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libIlmThread-2_2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libImath-2_2.12.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			rSFUOUR2YVqg6/eOoGDhoALmXrY=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libImath-2_2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libMagick++-7.Q16HDRI.2.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			cuXJ/lKT8zX/iLYO8W5mRAzmzio=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libMagick++-7.Q16HDRI.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libMagickCore-7.Q16HDRI.2.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			LKFMiZnn9KpYffW5bUx9QgpZD7w=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libMagickCore-7.Q16HDRI.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libMagickWand-7.Q16HDRI.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			IPFrLQVMc3K9Cftg57UAxF/iVl0=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libMagickWand-7.Q16HDRI.0" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libcairo.2.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			QPxSLUYSAOyCEVjCQe3L0Ib/pAk=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libcairo.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libffi.6.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			bTlzOoVNXPAZE1QjzLa7316Jdj4=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libffi.6" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libfontconfig.1.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			Z9GC8t52T+P0nyvTDOEh8IhnDgA=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libfontconfig.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libfreetype.6.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			eU/hnD8i6I/9IgFCiYZ7KBkCuJI=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libfreetype.6" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libglib-2.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			THcs7djcgEKJRG+kK8RRew4YOs4=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libglib-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libgmodule-2.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			alwbP5lLEoON+hzvxOtAmIpKK0M=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libgmodule-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libgobject-2.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			7g5bUm+bwf7jd/HMroXhcl9kVHU=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libgobject-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
 		<key>MacOS/libgs.9.21.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			90uUvE4vtKh0JMK4cWEjPP/hGVE=
+			zGBUavMfc+zvlmEKEbRWBdpBfpI=
 			</data>
 			<key>requirement</key>
 			<string>identifier "libgs.9" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libgthread-2.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			YkNnwPzOoY8xcmslctbAQxBp30E=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libgthread-2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libharfbuzz.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			Ro9pbAutPRJzK06bKBZr4WUM5+k=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libharfbuzz.0" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libiconv.2.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			XOYUg4Ctn6aHH/GLKjB37mAGLXY=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libiconv.2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libidn.11.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			kwW5ANIMG39BZCfvIoEAVt7ESCo=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libidn.11" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libintl.8.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			EWM5/E3bnIjlUwkKB3TZ/JWI+no=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libintl.8" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libjpeg.9.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			6g7O8GAUq0JXnYVtUBx6UfDaeuo=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libjpeg.9" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/liblzma.5.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			9Hpd9vNmAmhiokShJD4Spah/kPM=
-			</data>
-			<key>requirement</key>
-			<string>identifier "liblzma.5" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libopenjp2.7.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			WJDD5AHHS9K8vZzWquAapeYVLQg=
-			</data>
-			<key>requirement</key>
-			<string>identifier libopenjp2 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libpango-1.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			MOn7DM6QR/rz/01n8umkwZRcwiE=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libpango-1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libpangocairo-1.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			Rc2Wwf6cLg90d74zu4bWqasGeAc=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libpangocairo-1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libpangoft2-1.0.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			vLMJLSryrI5FPLR+QDvnFbJFLEU=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libpangoft2-1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libpixman-1.0.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			rJcbDmjLz17u4/tBCUGhvW+imfg=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libpixman-1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libpng16.16.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			w6urpv7x31C7l6ELn1BNviKr3Ds=
-			</data>
-			<key>requirement</key>
-			<string>identifier libpng16 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libtiff.5.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			C3V0t3p+uUMlaGuQpcqAgPX8r14=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libtiff.5" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libxml2.2.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			2R+yqalrn87VQFGKThmdJ0zasK4=
-			</data>
-			<key>requirement</key>
-			<string>identifier libxml2 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
-		</dict>
-		<key>MacOS/libz.1.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			UO1j40ycVPTDKIBHHDheCQHMu90=
-			</data>
-			<key>requirement</key>
-			<string>identifier "libz.1" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
 		<key>QuickLook/Thumbnail.png</key>
 		<dict>
@@ -686,11 +389,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l6dYVtWiFWgUoFpJ9KRS503yTfA=
+			Wh/dw4BMhRFBAmj3U3RlSVDPHIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0gaHLGqGaPFTG2Fq/D0JAqt6iHv2+0OBCplfxEfA4Cw=
+			VoW2DpS4/GQdRU/zbhwJlWbPgay+ZKSjSnm474XqmTE=
 			</data>
 			<key>optional</key>
 			<true/>

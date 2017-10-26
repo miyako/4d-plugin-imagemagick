@@ -15,43 +15,6 @@
 		18B684FF06944F8800CC6A1E /* 4DPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B684FE06944F8800CC6A1E /* 4DPlugin.cpp */; };
 		8D01CCC80486CAD60068D4B7 /* 4D Plugin_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B30371A71500C91783 /* 4D Plugin_Prefix.pch */; };
 		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		D101AD591F207BC3004F9C62 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD581F207BC3004F9C62 /* libresolv.dylib */; };
-		D101AD5B1F207BD0004F9C62 /* libcups.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD5A1F207BD0004F9C62 /* libcups.dylib */; };
-		D101AD661F2083F6004F9C62 /* libcupsimage.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD5C1F207BD8004F9C62 /* libcupsimage.dylib */; };
-		D101AD9E1F209C5C004F9C62 /* libcairo.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD7C1F209C5C004F9C62 /* libcairo.2.dylib */; };
-		D101AD9F1F209C5C004F9C62 /* libffi.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD7D1F209C5C004F9C62 /* libffi.6.dylib */; };
-		D101ADA01F209C5C004F9C62 /* libfontconfig.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD7E1F209C5C004F9C62 /* libfontconfig.1.dylib */; };
-		D101ADA11F209C5C004F9C62 /* libfreetype.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD7F1F209C5C004F9C62 /* libfreetype.6.dylib */; };
-		D101ADA21F209C5C004F9C62 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD801F209C5C004F9C62 /* libglib-2.0.0.dylib */; };
-		D101ADA31F209C5C004F9C62 /* libgmodule-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD811F209C5C004F9C62 /* libgmodule-2.0.0.dylib */; };
-		D101ADA41F209C5C004F9C62 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD821F209C5C004F9C62 /* libgobject-2.0.0.dylib */; };
-		D101ADA51F209C5C004F9C62 /* libgs.9.21.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD831F209C5C004F9C62 /* libgs.9.21.dylib */; };
-		D101ADA61F209C5C004F9C62 /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD841F209C5C004F9C62 /* libgthread-2.0.0.dylib */; };
-		D101ADA71F209C5C004F9C62 /* libHalf.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD851F209C5C004F9C62 /* libHalf.12.dylib */; };
-		D101ADA81F209C5C004F9C62 /* libharfbuzz.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD861F209C5C004F9C62 /* libharfbuzz.0.dylib */; };
-		D101ADA91F209C5C004F9C62 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD871F209C5C004F9C62 /* libiconv.2.dylib */; };
-		D101ADAA1F209C5C004F9C62 /* libidn.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD881F209C5C004F9C62 /* libidn.11.dylib */; };
-		D101ADAB1F209C5C004F9C62 /* libIex-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD891F209C5C004F9C62 /* libIex-2_2.12.dylib */; };
-		D101ADAC1F209C5C004F9C62 /* libIexMath-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD8A1F209C5C004F9C62 /* libIexMath-2_2.12.dylib */; };
-		D101ADAD1F209C5C004F9C62 /* libIlmImf-2_2.22.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD8B1F209C5C004F9C62 /* libIlmImf-2_2.22.dylib */; };
-		D101ADAE1F209C5C004F9C62 /* libIlmImfUtil-2_2.22.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD8C1F209C5C004F9C62 /* libIlmImfUtil-2_2.22.dylib */; };
-		D101ADAF1F209C5C004F9C62 /* libIlmThread-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD8D1F209C5C004F9C62 /* libIlmThread-2_2.12.dylib */; };
-		D101ADB01F209C5C004F9C62 /* libImath-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD8E1F209C5C004F9C62 /* libImath-2_2.12.dylib */; };
-		D101ADB11F209C5C004F9C62 /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD8F1F209C5C004F9C62 /* libintl.8.dylib */; };
-		D101ADB21F209C5C004F9C62 /* libjpeg.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD901F209C5C004F9C62 /* libjpeg.9.dylib */; };
-		D101ADB31F209C5C004F9C62 /* liblzma.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD911F209C5C004F9C62 /* liblzma.5.dylib */; };
-		D101ADB41F209C5C004F9C62 /* libMagick++-7.Q16HDRI.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD921F209C5C004F9C62 /* libMagick++-7.Q16HDRI.2.dylib */; };
-		D101ADB51F209C5C004F9C62 /* libMagickCore-7.Q16HDRI.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD931F209C5C004F9C62 /* libMagickCore-7.Q16HDRI.2.dylib */; };
-		D101ADB61F209C5C004F9C62 /* libMagickWand-7.Q16HDRI.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD941F209C5C004F9C62 /* libMagickWand-7.Q16HDRI.0.dylib */; };
-		D101ADB71F209C5C004F9C62 /* libopenjp2.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD951F209C5C004F9C62 /* libopenjp2.7.dylib */; };
-		D101ADB81F209C5C004F9C62 /* libpango-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD961F209C5C004F9C62 /* libpango-1.0.0.dylib */; };
-		D101ADB91F209C5C004F9C62 /* libpangocairo-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD971F209C5C004F9C62 /* libpangocairo-1.0.0.dylib */; };
-		D101ADBA1F209C5C004F9C62 /* libpangoft2-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD981F209C5C004F9C62 /* libpangoft2-1.0.0.dylib */; };
-		D101ADBB1F209C5C004F9C62 /* libpixman-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD991F209C5C004F9C62 /* libpixman-1.0.dylib */; };
-		D101ADBC1F209C5C004F9C62 /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD9A1F209C5C004F9C62 /* libpng16.16.dylib */; };
-		D101ADBD1F209C5C004F9C62 /* libtiff.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD9B1F209C5C004F9C62 /* libtiff.5.dylib */; };
-		D101ADBE1F209C5C004F9C62 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD9C1F209C5C004F9C62 /* libxml2.2.dylib */; };
-		D101ADBF1F209C5C004F9C62 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D101AD9D1F209C5C004F9C62 /* libz.1.dylib */; };
 		D120937F13534DCC00A72CAA /* 4DPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D120937E13534DCC00A72CAA /* 4DPlugin.h */; };
 		D130064F12F02D9700702C0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D130064E12F02D9700702C0E /* Cocoa.framework */; };
 		D13116A91A03ACB700DE1322 /* 4DPluginAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = D13116A81A03ACB700DE1322 /* 4DPluginAPI.c */; };
@@ -92,7 +55,38 @@
 		D175D9CD1A02E8DD0006B569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */; };
 		D188FBD01F04D590003717B9 /* IMImage2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D188FBCE1F04D590003717B9 /* IMImage2.cpp */; };
 		D188FBD11F04D590003717B9 /* IMImage2.h in Headers */ = {isa = PBXBuildFile; fileRef = D188FBCF1F04D590003717B9 /* IMImage2.h */; };
-		D188FC051F04DA0C003717B9 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D188FC041F04DA0C003717B9 /* libbz2.dylib */; };
+		D1A093DF1F73A3C2000EBA5D /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D188FC041F04DA0C003717B9 /* libbz2.dylib */; };
+		D1DDE15D1FA18F28000E802D /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE13C1FA18F28000E802D /* libcairo.a */; };
+		D1DDE15E1FA18F28000E802D /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE13D1FA18F28000E802D /* libffi.a */; };
+		D1DDE15F1FA18F28000E802D /* libfontconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE13E1FA18F28000E802D /* libfontconfig.a */; };
+		D1DDE1601FA18F28000E802D /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE13F1FA18F28000E802D /* libfreetype.a */; };
+		D1DDE1611FA18F28000E802D /* libglib-2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1401FA18F28000E802D /* libglib-2.0.a */; };
+		D1DDE1621FA18F28000E802D /* libgmodule-2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1411FA18F28000E802D /* libgmodule-2.0.a */; };
+		D1DDE1631FA18F28000E802D /* libgobject-2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1421FA18F28000E802D /* libgobject-2.0.a */; };
+		D1DDE1641FA18F28000E802D /* libgthread-2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1431FA18F28000E802D /* libgthread-2.0.a */; };
+		D1DDE1651FA18F28000E802D /* libHalf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1441FA18F28000E802D /* libHalf.a */; };
+		D1DDE1661FA18F28000E802D /* libharfbuzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1451FA18F28000E802D /* libharfbuzz.a */; };
+		D1DDE1671FA18F28000E802D /* libiconv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1461FA18F28000E802D /* libiconv.a */; };
+		D1DDE1681FA18F28000E802D /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1471FA18F28000E802D /* libidn.a */; };
+		D1DDE1691FA18F28000E802D /* libIex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1481FA18F28000E802D /* libIex.a */; };
+		D1DDE16A1FA18F28000E802D /* libIexMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1491FA18F28000E802D /* libIexMath.a */; };
+		D1DDE16B1FA18F28000E802D /* libIlmImf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE14A1FA18F28000E802D /* libIlmImf.a */; };
+		D1DDE16C1FA18F28000E802D /* libIlmImfUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE14B1FA18F28000E802D /* libIlmImfUtil.a */; };
+		D1DDE16D1FA18F28000E802D /* libIlmThread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE14C1FA18F28000E802D /* libIlmThread.a */; };
+		D1DDE16E1FA18F28000E802D /* libImath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE14D1FA18F28000E802D /* libImath.a */; };
+		D1DDE16F1FA18F28000E802D /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE14E1FA18F28000E802D /* libintl.a */; };
+		D1DDE1701FA18F28000E802D /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE14F1FA18F28000E802D /* libjpeg.a */; };
+		D1DDE1711FA18F28000E802D /* liblzma.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1501FA18F28000E802D /* liblzma.a */; };
+		D1DDE1721FA18F28000E802D /* libMagick++-7.Q16HDRI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1511FA18F28000E802D /* libMagick++-7.Q16HDRI.a */; };
+		D1DDE1731FA18F28000E802D /* libMagickCore-7.Q16HDRI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1521FA18F28000E802D /* libMagickCore-7.Q16HDRI.a */; };
+		D1DDE1741FA18F28000E802D /* libMagickWand-7.Q16HDRI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1531FA18F28000E802D /* libMagickWand-7.Q16HDRI.a */; };
+		D1DDE1751FA18F28000E802D /* libopenjp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1541FA18F28000E802D /* libopenjp2.a */; };
+		D1DDE1791FA18F28000E802D /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1581FA18F28000E802D /* libpixman-1.a */; };
+		D1DDE17A1FA18F28000E802D /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE1591FA18F28000E802D /* libpng16.a */; };
+		D1DDE17B1FA18F28000E802D /* libtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE15A1FA18F28000E802D /* libtiff.a */; };
+		D1DDE17C1FA18F28000E802D /* libxml2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE15B1FA18F28000E802D /* libxml2.a */; };
+		D1DDE17D1FA18F28000E802D /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE15C1FA18F28000E802D /* libz.a */; };
+		D1DDE17F1FA19968000E802D /* libgs.9.21.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DDE17E1FA19968000E802D /* libgs.9.21.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,43 +114,6 @@
 		32BAE0B30371A71500C91783 /* 4D Plugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "4D Plugin_Prefix.pch"; sourceTree = "<group>"; };
 		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D101AD581F207BC3004F9C62 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
-		D101AD5A1F207BD0004F9C62 /* libcups.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcups.dylib; path = usr/lib/libcups.dylib; sourceTree = SDKROOT; };
-		D101AD5C1F207BD8004F9C62 /* libcupsimage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcupsimage.dylib; path = usr/lib/libcupsimage.dylib; sourceTree = SDKROOT; };
-		D101AD7C1F209C5C004F9C62 /* libcairo.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcairo.2.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libcairo.2.dylib; sourceTree = "<group>"; };
-		D101AD7D1F209C5C004F9C62 /* libffi.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libffi.6.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libffi.6.dylib; sourceTree = "<group>"; };
-		D101AD7E1F209C5C004F9C62 /* libfontconfig.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.1.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libfontconfig.1.dylib; sourceTree = "<group>"; };
-		D101AD7F1F209C5C004F9C62 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libfreetype.6.dylib; sourceTree = "<group>"; };
-		D101AD801F209C5C004F9C62 /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD811F209C5C004F9C62 /* libgmodule-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgmodule-2.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libgmodule-2.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD821F209C5C004F9C62 /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD831F209C5C004F9C62 /* libgs.9.21.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgs.9.21.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libgs.9.21.dylib; sourceTree = "<group>"; };
-		D101AD841F209C5C004F9C62 /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libgthread-2.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD851F209C5C004F9C62 /* libHalf.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libHalf.12.dylib; sourceTree = "<group>"; };
-		D101AD861F209C5C004F9C62 /* libharfbuzz.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libharfbuzz.0.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libharfbuzz.0.dylib; sourceTree = "<group>"; };
-		D101AD871F209C5C004F9C62 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libiconv.2.dylib; sourceTree = "<group>"; };
-		D101AD881F209C5C004F9C62 /* libidn.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libidn.11.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libidn.11.dylib; sourceTree = "<group>"; };
-		D101AD891F209C5C004F9C62 /* libIex-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.12.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libIex-2_2.12.dylib"; sourceTree = "<group>"; };
-		D101AD8A1F209C5C004F9C62 /* libIexMath-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.12.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libIexMath-2_2.12.dylib"; sourceTree = "<group>"; };
-		D101AD8B1F209C5C004F9C62 /* libIlmImf-2_2.22.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.22.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libIlmImf-2_2.22.dylib"; sourceTree = "<group>"; };
-		D101AD8C1F209C5C004F9C62 /* libIlmImfUtil-2_2.22.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.22.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libIlmImfUtil-2_2.22.dylib"; sourceTree = "<group>"; };
-		D101AD8D1F209C5C004F9C62 /* libIlmThread-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.12.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libIlmThread-2_2.12.dylib"; sourceTree = "<group>"; };
-		D101AD8E1F209C5C004F9C62 /* libImath-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.12.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libImath-2_2.12.dylib"; sourceTree = "<group>"; };
-		D101AD8F1F209C5C004F9C62 /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libintl.8.dylib; sourceTree = "<group>"; };
-		D101AD901F209C5C004F9C62 /* libjpeg.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.9.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libjpeg.9.dylib; sourceTree = "<group>"; };
-		D101AD911F209C5C004F9C62 /* liblzma.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.5.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/liblzma.5.dylib; sourceTree = "<group>"; };
-		D101AD921F209C5C004F9C62 /* libMagick++-7.Q16HDRI.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagick++-7.Q16HDRI.2.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libMagick++-7.Q16HDRI.2.dylib"; sourceTree = "<group>"; };
-		D101AD931F209C5C004F9C62 /* libMagickCore-7.Q16HDRI.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickCore-7.Q16HDRI.2.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libMagickCore-7.Q16HDRI.2.dylib"; sourceTree = "<group>"; };
-		D101AD941F209C5C004F9C62 /* libMagickWand-7.Q16HDRI.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libMagickWand-7.Q16HDRI.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libMagickWand-7.Q16HDRI.0.dylib"; sourceTree = "<group>"; };
-		D101AD951F209C5C004F9C62 /* libopenjp2.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenjp2.7.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libopenjp2.7.dylib; sourceTree = "<group>"; };
-		D101AD961F209C5C004F9C62 /* libpango-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpango-1.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libpango-1.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD971F209C5C004F9C62 /* libpangocairo-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpangocairo-1.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libpangocairo-1.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD981F209C5C004F9C62 /* libpangoft2-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpangoft2-1.0.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libpangoft2-1.0.0.dylib"; sourceTree = "<group>"; };
-		D101AD991F209C5C004F9C62 /* libpixman-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpixman-1.0.dylib"; path = "ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libpixman-1.0.dylib"; sourceTree = "<group>"; };
-		D101AD9A1F209C5C004F9C62 /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libpng16.16.dylib; sourceTree = "<group>"; };
-		D101AD9B1F209C5C004F9C62 /* libtiff.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtiff.5.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libtiff.5.dylib; sourceTree = "<group>"; };
-		D101AD9C1F209C5C004F9C62 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libxml2.2.dylib; sourceTree = "<group>"; };
-		D101AD9D1F209C5C004F9C62 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libz.1.dylib; sourceTree = "<group>"; };
-		D10472841F205F580062C0BB /* libgs.9.21.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgs.9.21.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libgs.9.21.dylib; sourceTree = "<group>"; };
 		D120937E13534DCC00A72CAA /* 4DPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 4DPlugin.h; sourceTree = "<group>"; };
 		D130064E12F02D9700702C0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		D13116A81A03ACB700DE1322 /* 4DPluginAPI.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = 4DPluginAPI.c; sourceTree = "<group>"; };
@@ -199,6 +156,38 @@
 		D188FBCE1F04D590003717B9 /* IMImage2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = IMImage2.cpp; sourceTree = "<group>"; };
 		D188FBCF1F04D590003717B9 /* IMImage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMImage2.h; sourceTree = "<group>"; };
 		D188FC041F04DA0C003717B9 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		D1A093861F73267A000EBA5D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D1DDE13C1FA18F28000E802D /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = stdc/a/libcairo.a; sourceTree = "<group>"; };
+		D1DDE13D1FA18F28000E802D /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffi.a; path = stdc/a/libffi.a; sourceTree = "<group>"; };
+		D1DDE13E1FA18F28000E802D /* libfontconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfontconfig.a; path = stdc/a/libfontconfig.a; sourceTree = "<group>"; };
+		D1DDE13F1FA18F28000E802D /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = stdc/a/libfreetype.a; sourceTree = "<group>"; };
+		D1DDE1401FA18F28000E802D /* libglib-2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libglib-2.0.a"; path = "stdc/a/libglib-2.0.a"; sourceTree = "<group>"; };
+		D1DDE1411FA18F28000E802D /* libgmodule-2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgmodule-2.0.a"; path = "stdc/a/libgmodule-2.0.a"; sourceTree = "<group>"; };
+		D1DDE1421FA18F28000E802D /* libgobject-2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgobject-2.0.a"; path = "stdc/a/libgobject-2.0.a"; sourceTree = "<group>"; };
+		D1DDE1431FA18F28000E802D /* libgthread-2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgthread-2.0.a"; path = "stdc/a/libgthread-2.0.a"; sourceTree = "<group>"; };
+		D1DDE1441FA18F28000E802D /* libHalf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHalf.a; path = stdc/a/libHalf.a; sourceTree = "<group>"; };
+		D1DDE1451FA18F28000E802D /* libharfbuzz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libharfbuzz.a; path = stdc/a/libharfbuzz.a; sourceTree = "<group>"; };
+		D1DDE1461FA18F28000E802D /* libiconv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiconv.a; path = stdc/a/libiconv.a; sourceTree = "<group>"; };
+		D1DDE1471FA18F28000E802D /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libidn.a; path = stdc/a/libidn.a; sourceTree = "<group>"; };
+		D1DDE1481FA18F28000E802D /* libIex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIex.a; path = stdc/a/libIex.a; sourceTree = "<group>"; };
+		D1DDE1491FA18F28000E802D /* libIexMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIexMath.a; path = stdc/a/libIexMath.a; sourceTree = "<group>"; };
+		D1DDE14A1FA18F28000E802D /* libIlmImf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImf.a; path = stdc/a/libIlmImf.a; sourceTree = "<group>"; };
+		D1DDE14B1FA18F28000E802D /* libIlmImfUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmImfUtil.a; path = stdc/a/libIlmImfUtil.a; sourceTree = "<group>"; };
+		D1DDE14C1FA18F28000E802D /* libIlmThread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIlmThread.a; path = stdc/a/libIlmThread.a; sourceTree = "<group>"; };
+		D1DDE14D1FA18F28000E802D /* libImath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libImath.a; path = stdc/a/libImath.a; sourceTree = "<group>"; };
+		D1DDE14E1FA18F28000E802D /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = stdc/a/libintl.a; sourceTree = "<group>"; };
+		D1DDE14F1FA18F28000E802D /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = stdc/a/libjpeg.a; sourceTree = "<group>"; };
+		D1DDE1501FA18F28000E802D /* liblzma.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblzma.a; path = stdc/a/liblzma.a; sourceTree = "<group>"; };
+		D1DDE1511FA18F28000E802D /* libMagick++-7.Q16HDRI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMagick++-7.Q16HDRI.a"; path = "stdc/a/libMagick++-7.Q16HDRI.a"; sourceTree = "<group>"; };
+		D1DDE1521FA18F28000E802D /* libMagickCore-7.Q16HDRI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMagickCore-7.Q16HDRI.a"; path = "stdc/a/libMagickCore-7.Q16HDRI.a"; sourceTree = "<group>"; };
+		D1DDE1531FA18F28000E802D /* libMagickWand-7.Q16HDRI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMagickWand-7.Q16HDRI.a"; path = "stdc/a/libMagickWand-7.Q16HDRI.a"; sourceTree = "<group>"; };
+		D1DDE1541FA18F28000E802D /* libopenjp2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenjp2.a; path = stdc/a/libopenjp2.a; sourceTree = "<group>"; };
+		D1DDE1581FA18F28000E802D /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpixman-1.a"; path = "stdc/a/libpixman-1.a"; sourceTree = "<group>"; };
+		D1DDE1591FA18F28000E802D /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = stdc/a/libpng16.a; sourceTree = "<group>"; };
+		D1DDE15A1FA18F28000E802D /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = stdc/a/libtiff.a; sourceTree = "<group>"; };
+		D1DDE15B1FA18F28000E802D /* libxml2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxml2.a; path = stdc/a/libxml2.a; sourceTree = "<group>"; };
+		D1DDE15C1FA18F28000E802D /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = stdc/a/libz.a; sourceTree = "<group>"; };
+		D1DDE17E1FA19968000E802D /* libgs.9.21.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgs.9.21.dylib; path = ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS/libgs.9.21.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,47 +195,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D101ADA71F209C5C004F9C62 /* libHalf.12.dylib in Frameworks */,
-				D101ADA91F209C5C004F9C62 /* libiconv.2.dylib in Frameworks */,
-				D101AD661F2083F6004F9C62 /* libcupsimage.dylib in Frameworks */,
-				D101ADAA1F209C5C004F9C62 /* libidn.11.dylib in Frameworks */,
-				D101ADAB1F209C5C004F9C62 /* libIex-2_2.12.dylib in Frameworks */,
-				D101ADBC1F209C5C004F9C62 /* libpng16.16.dylib in Frameworks */,
-				D101AD5B1F207BD0004F9C62 /* libcups.dylib in Frameworks */,
-				D101ADA01F209C5C004F9C62 /* libfontconfig.1.dylib in Frameworks */,
-				D101AD591F207BC3004F9C62 /* libresolv.dylib in Frameworks */,
-				D101ADB01F209C5C004F9C62 /* libImath-2_2.12.dylib in Frameworks */,
-				D188FC051F04DA0C003717B9 /* libbz2.dylib in Frameworks */,
-				D101ADA81F209C5C004F9C62 /* libharfbuzz.0.dylib in Frameworks */,
-				D101ADB91F209C5C004F9C62 /* libpangocairo-1.0.0.dylib in Frameworks */,
-				D101ADBD1F209C5C004F9C62 /* libtiff.5.dylib in Frameworks */,
-				D101ADB41F209C5C004F9C62 /* libMagick++-7.Q16HDRI.2.dylib in Frameworks */,
-				D101ADA21F209C5C004F9C62 /* libglib-2.0.0.dylib in Frameworks */,
-				D101ADBB1F209C5C004F9C62 /* libpixman-1.0.dylib in Frameworks */,
-				D101ADB11F209C5C004F9C62 /* libintl.8.dylib in Frameworks */,
-				D13116C71A03B5B600DE1322 /* AppKit.framework in Frameworks */,
+				D1DDE1691FA18F28000E802D /* libIex.a in Frameworks */,
+				D1DDE15F1FA18F28000E802D /* libfontconfig.a in Frameworks */,
+				D1DDE17C1FA18F28000E802D /* libxml2.a in Frameworks */,
+				D1DDE1741FA18F28000E802D /* libMagickWand-7.Q16HDRI.a in Frameworks */,
+				D1DDE1671FA18F28000E802D /* libiconv.a in Frameworks */,
+				D1DDE17A1FA18F28000E802D /* libpng16.a in Frameworks */,
+				D1A093DF1F73A3C2000EBA5D /* libbz2.dylib in Frameworks */,
+				D1DDE16F1FA18F28000E802D /* libintl.a in Frameworks */,
+				D1DDE1701FA18F28000E802D /* libjpeg.a in Frameworks */,
+				D1DDE17D1FA18F28000E802D /* libz.a in Frameworks */,
+				D1DDE1721FA18F28000E802D /* libMagick++-7.Q16HDRI.a in Frameworks */,
+				D1DDE17B1FA18F28000E802D /* libtiff.a in Frameworks */,
+				D1DDE1641FA18F28000E802D /* libgthread-2.0.a in Frameworks */,
+				D1DDE16E1FA18F28000E802D /* libImath.a in Frameworks */,
+				D1DDE15E1FA18F28000E802D /* libffi.a in Frameworks */,
+				D1DDE15D1FA18F28000E802D /* libcairo.a in Frameworks */,
+				D1DDE1611FA18F28000E802D /* libglib-2.0.a in Frameworks */,
+				D1DDE1731FA18F28000E802D /* libMagickCore-7.Q16HDRI.a in Frameworks */,
 				D130064F12F02D9700702C0E /* Cocoa.framework in Frameworks */,
-				D101ADBF1F209C5C004F9C62 /* libz.1.dylib in Frameworks */,
+				D1DDE16C1FA18F28000E802D /* libIlmImfUtil.a in Frameworks */,
+				D1DDE1711FA18F28000E802D /* liblzma.a in Frameworks */,
+				D1DDE17F1FA19968000E802D /* libgs.9.21.dylib in Frameworks */,
+				D1DDE1651FA18F28000E802D /* libHalf.a in Frameworks */,
+				D1DDE16A1FA18F28000E802D /* libIexMath.a in Frameworks */,
+				D1DDE16B1FA18F28000E802D /* libIlmImf.a in Frameworks */,
+				D1DDE1681FA18F28000E802D /* libidn.a in Frameworks */,
+				D1DDE1621FA18F28000E802D /* libgmodule-2.0.a in Frameworks */,
+				D1DDE1791FA18F28000E802D /* libpixman-1.a in Frameworks */,
+				D1DDE1661FA18F28000E802D /* libharfbuzz.a in Frameworks */,
+				D1DDE1751FA18F28000E802D /* libopenjp2.a in Frameworks */,
+				D1DDE16D1FA18F28000E802D /* libIlmThread.a in Frameworks */,
+				D13116C71A03B5B600DE1322 /* AppKit.framework in Frameworks */,
 				D175D9CD1A02E8DD0006B569 /* CoreGraphics.framework in Frameworks */,
-				D101ADA61F209C5C004F9C62 /* libgthread-2.0.0.dylib in Frameworks */,
-				D101ADB21F209C5C004F9C62 /* libjpeg.9.dylib in Frameworks */,
-				D101ADA11F209C5C004F9C62 /* libfreetype.6.dylib in Frameworks */,
-				D101ADA41F209C5C004F9C62 /* libgobject-2.0.0.dylib in Frameworks */,
-				D101ADAE1F209C5C004F9C62 /* libIlmImfUtil-2_2.22.dylib in Frameworks */,
-				D101ADB31F209C5C004F9C62 /* liblzma.5.dylib in Frameworks */,
-				D101ADBE1F209C5C004F9C62 /* libxml2.2.dylib in Frameworks */,
-				D101ADB51F209C5C004F9C62 /* libMagickCore-7.Q16HDRI.2.dylib in Frameworks */,
-				D101ADAF1F209C5C004F9C62 /* libIlmThread-2_2.12.dylib in Frameworks */,
-				D101AD9E1F209C5C004F9C62 /* libcairo.2.dylib in Frameworks */,
-				D101ADB81F209C5C004F9C62 /* libpango-1.0.0.dylib in Frameworks */,
-				D101AD9F1F209C5C004F9C62 /* libffi.6.dylib in Frameworks */,
-				D101ADAC1F209C5C004F9C62 /* libIexMath-2_2.12.dylib in Frameworks */,
-				D101ADA31F209C5C004F9C62 /* libgmodule-2.0.0.dylib in Frameworks */,
-				D101ADBA1F209C5C004F9C62 /* libpangoft2-1.0.0.dylib in Frameworks */,
-				D101ADB61F209C5C004F9C62 /* libMagickWand-7.Q16HDRI.0.dylib in Frameworks */,
-				D101ADAD1F209C5C004F9C62 /* libIlmImf-2_2.22.dylib in Frameworks */,
-				D101ADB71F209C5C004F9C62 /* libopenjp2.7.dylib in Frameworks */,
-				D101ADA51F209C5C004F9C62 /* libgs.9.21.dylib in Frameworks */,
+				D1DDE1631FA18F28000E802D /* libgobject-2.0.a in Frameworks */,
+				D1DDE1601FA18F28000E802D /* libfreetype.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +239,7 @@
 		089C166AFE841209C02AAC07 /* ImageMagick */ = {
 			isa = PBXGroup;
 			children = (
+				D1A093B81F7375DA000EBA5D /* a */,
 				D101AD7B1F209C4B004F9C62 /* dylib */,
 				D108BD7A1A03D1E6001F1B90 /* Manifest */,
 				08FB77ADFE841716C02AAC07 /* Source */,
@@ -270,7 +254,6 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				D10472841F205F580062C0BB /* libgs.9.21.dylib */,
 				D13116C61A03B5B600DE1322 /* AppKit.framework */,
 				D175D9CC1A02E8DD0006B569 /* CoreGraphics.framework */,
 				D130064E12F02D9700702C0E /* Cocoa.framework */,
@@ -325,40 +308,7 @@
 		D101AD7B1F209C4B004F9C62 /* dylib */ = {
 			isa = PBXGroup;
 			children = (
-				D101AD7C1F209C5C004F9C62 /* libcairo.2.dylib */,
-				D101AD7D1F209C5C004F9C62 /* libffi.6.dylib */,
-				D101AD7E1F209C5C004F9C62 /* libfontconfig.1.dylib */,
-				D101AD7F1F209C5C004F9C62 /* libfreetype.6.dylib */,
-				D101AD801F209C5C004F9C62 /* libglib-2.0.0.dylib */,
-				D101AD811F209C5C004F9C62 /* libgmodule-2.0.0.dylib */,
-				D101AD821F209C5C004F9C62 /* libgobject-2.0.0.dylib */,
-				D101AD831F209C5C004F9C62 /* libgs.9.21.dylib */,
-				D101AD841F209C5C004F9C62 /* libgthread-2.0.0.dylib */,
-				D101AD851F209C5C004F9C62 /* libHalf.12.dylib */,
-				D101AD861F209C5C004F9C62 /* libharfbuzz.0.dylib */,
-				D101AD871F209C5C004F9C62 /* libiconv.2.dylib */,
-				D101AD881F209C5C004F9C62 /* libidn.11.dylib */,
-				D101AD891F209C5C004F9C62 /* libIex-2_2.12.dylib */,
-				D101AD8A1F209C5C004F9C62 /* libIexMath-2_2.12.dylib */,
-				D101AD8B1F209C5C004F9C62 /* libIlmImf-2_2.22.dylib */,
-				D101AD8C1F209C5C004F9C62 /* libIlmImfUtil-2_2.22.dylib */,
-				D101AD8D1F209C5C004F9C62 /* libIlmThread-2_2.12.dylib */,
-				D101AD8E1F209C5C004F9C62 /* libImath-2_2.12.dylib */,
-				D101AD8F1F209C5C004F9C62 /* libintl.8.dylib */,
-				D101AD901F209C5C004F9C62 /* libjpeg.9.dylib */,
-				D101AD911F209C5C004F9C62 /* liblzma.5.dylib */,
-				D101AD921F209C5C004F9C62 /* libMagick++-7.Q16HDRI.2.dylib */,
-				D101AD931F209C5C004F9C62 /* libMagickCore-7.Q16HDRI.2.dylib */,
-				D101AD941F209C5C004F9C62 /* libMagickWand-7.Q16HDRI.0.dylib */,
-				D101AD951F209C5C004F9C62 /* libopenjp2.7.dylib */,
-				D101AD961F209C5C004F9C62 /* libpango-1.0.0.dylib */,
-				D101AD971F209C5C004F9C62 /* libpangocairo-1.0.0.dylib */,
-				D101AD981F209C5C004F9C62 /* libpangoft2-1.0.0.dylib */,
-				D101AD991F209C5C004F9C62 /* libpixman-1.0.dylib */,
-				D101AD9A1F209C5C004F9C62 /* libpng16.16.dylib */,
-				D101AD9B1F209C5C004F9C62 /* libtiff.5.dylib */,
-				D101AD9C1F209C5C004F9C62 /* libxml2.2.dylib */,
-				D101AD9D1F209C5C004F9C62 /* libz.1.dylib */,
+				D1DDE17E1FA19968000E802D /* libgs.9.21.dylib */,
 			);
 			name = dylib;
 			sourceTree = "<group>";
@@ -421,8 +371,7 @@
 		D188FC031F04DA0C003717B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D101AD5C1F207BD8004F9C62 /* libcupsimage.dylib */,
-				D101AD5A1F207BD0004F9C62 /* libcups.dylib */,
+				D1A093861F73267A000EBA5D /* libiconv.dylib */,
 				D101AD581F207BC3004F9C62 /* libresolv.dylib */,
 				D188FC041F04DA0C003717B9 /* libbz2.dylib */,
 			);
@@ -436,6 +385,43 @@
 				D13116D01A03BBA100DE1322 /* C */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		D1A093B81F7375DA000EBA5D /* a */ = {
+			isa = PBXGroup;
+			children = (
+				D1DDE13C1FA18F28000E802D /* libcairo.a */,
+				D1DDE13D1FA18F28000E802D /* libffi.a */,
+				D1DDE13E1FA18F28000E802D /* libfontconfig.a */,
+				D1DDE13F1FA18F28000E802D /* libfreetype.a */,
+				D1DDE1401FA18F28000E802D /* libglib-2.0.a */,
+				D1DDE1411FA18F28000E802D /* libgmodule-2.0.a */,
+				D1DDE1421FA18F28000E802D /* libgobject-2.0.a */,
+				D1DDE1431FA18F28000E802D /* libgthread-2.0.a */,
+				D1DDE1441FA18F28000E802D /* libHalf.a */,
+				D1DDE1451FA18F28000E802D /* libharfbuzz.a */,
+				D1DDE1461FA18F28000E802D /* libiconv.a */,
+				D1DDE1471FA18F28000E802D /* libidn.a */,
+				D1DDE1481FA18F28000E802D /* libIex.a */,
+				D1DDE1491FA18F28000E802D /* libIexMath.a */,
+				D1DDE14A1FA18F28000E802D /* libIlmImf.a */,
+				D1DDE14B1FA18F28000E802D /* libIlmImfUtil.a */,
+				D1DDE14C1FA18F28000E802D /* libIlmThread.a */,
+				D1DDE14D1FA18F28000E802D /* libImath.a */,
+				D1DDE14E1FA18F28000E802D /* libintl.a */,
+				D1DDE14F1FA18F28000E802D /* libjpeg.a */,
+				D1DDE1501FA18F28000E802D /* liblzma.a */,
+				D1DDE1511FA18F28000E802D /* libMagick++-7.Q16HDRI.a */,
+				D1DDE1521FA18F28000E802D /* libMagickCore-7.Q16HDRI.a */,
+				D1DDE1531FA18F28000E802D /* libMagickWand-7.Q16HDRI.a */,
+				D1DDE1541FA18F28000E802D /* libopenjp2.a */,
+				D1DDE1581FA18F28000E802D /* libpixman-1.a */,
+				D1DDE1591FA18F28000E802D /* libpng16.a */,
+				D1DDE15A1FA18F28000E802D /* libtiff.a */,
+				D1DDE15B1FA18F28000E802D /* libxml2.a */,
+				D1DDE15C1FA18F28000E802D /* libz.a */,
+			);
+			name = a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -614,6 +600,8 @@
 					"$(PROJECT_DIR)/stdc/a",
 					"$(PROJECT_DIR)/stdc/dylib",
 					"$(PROJECT_DIR)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS",
+					"$(PROJECT_DIR)/stdc",
+					"$(PROJECT_DIR)/stdc/64",
 				);
 				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
@@ -657,6 +645,8 @@
 					"$(PROJECT_DIR)/stdc/a",
 					"$(PROJECT_DIR)/stdc/dylib",
 					"$(PROJECT_DIR)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS",
+					"$(PROJECT_DIR)/stdc",
+					"$(PROJECT_DIR)/stdc/64",
 				);
 				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
@@ -698,6 +688,8 @@
 					"$(PROJECT_DIR)/stdc/a",
 					"$(PROJECT_DIR)/stdc/dylib",
 					"$(PROJECT_DIR)/ImageMagick.4dbase/Plugins/ImageMagick.bundle/Contents/MacOS",
+					"$(PROJECT_DIR)/stdc",
+					"$(PROJECT_DIR)/stdc/64",
 				);
 				LIBRARY_STYLE = Bundle;
 				OTHER_CFLAGS = "";
