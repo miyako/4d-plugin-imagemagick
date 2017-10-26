@@ -17,6 +17,8 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 
 ### Download
 
+[2.1.1](https://github.com/miyako/4d-plugin-imagemagick/releases/tag/2.1.1)
+
 [2.1.0](https://github.com/miyako/4d-plugin-imagemagick/releases/tag/2.1.0)
 
 ### Related projects
