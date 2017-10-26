@@ -31,14 +31,14 @@ Using [ImageMagick-7](https://www.imagemagick.org/script/index.php) with basic c
 --enable-hdri 
 --enable-cipher 
 --enable-zero-configuration 
---disable-dbus
 --without-x
 --without-perl 
---without-threads
+--without-pango
 --with-openexr 
 --with-gslib
---with-drivers=FILES
 ```
+
+``libpango`` seems to crash the client manager thread (-3) on exit (4D Server).
 
 * Notable build flags for ``libgs`` on Mac
 
