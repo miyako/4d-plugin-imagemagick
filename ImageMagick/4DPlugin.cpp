@@ -57,7 +57,7 @@ void OnCloseProcess()
 {
 	if(IsProcessOnExit())
 	{
-		//MagickCore::MagickCoreTerminus();
+		MagickCore::MagickCoreTerminus();
 	}
 }
 
